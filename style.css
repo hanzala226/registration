@@ -30,16 +30,6 @@ form{
     height: 500px;
 align-items: center;
 }
-@media(max-width:700px;){
-form{height: 550px;}
-    .name{ margin-left:0;}
-    
-    #pass{
-    margin-right: 15px;
-}
-    
-    
-}
 .name{
     outline: none;
     background-color: transparent;
@@ -117,5 +107,5 @@ box-shadow: 0 0 20px white;
 box-shadow: 0 0 20px white;
 }
 .na{
-    font-size: 15px;
+    font-size:12px;
 }
