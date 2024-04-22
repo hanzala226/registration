@@ -30,8 +30,14 @@ form{
     height: 500px;
 align-items: center;
 }
-@media(max-width:700px){
+@media(max-width:700px;){
 form{height: 550px;}
+    .name{ margin-left:0;}
+    
+    #pass{
+    margin-right: 15px;
+}
+    
     
 }
 .name{
