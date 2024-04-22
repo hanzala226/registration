@@ -15,6 +15,11 @@ body{
       align-items: center;
       text-align: center;
 }
+@media(max-width:700px;){
+    #pass{
+    margin-right:0px;
+}
+}
 form{
     display: block;
     justify-content: center;
