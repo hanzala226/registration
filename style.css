@@ -27,14 +27,17 @@ form{
     padding: 20px;
     background-color: rgba(44, 41, 41, 0);
     width: 350px;
-    height: 550px;
+    height: 500px;
 align-items: center;
+}
+@media(max-width:700px){
+form{height: 550px;}
+    
 }
 .name{
     outline: none;
     background-color: transparent;
     color: white;
-    margin-left:px;
     align-items: center;
    width: 250px;
    height: 30px;
@@ -47,7 +50,7 @@ align-items: center;
 margin-left: 2px;
 }
 #pass{
-    margin-right: 25px;
+    margin-right: 20px;
 }
 .age{
     outline: none;
