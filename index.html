@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+
+    <form action=""> 
+        <h1>Registration</h1> 
+        <br><br>
+    <label class="na" for="name"> Name:</label><input  class="name" type="Name" name="name" placeholder="Type Your Name" required>
+    <br><br>
+    <label  class="na" for="email"> Email:</label><input  class="name" type="email" name="email" placeholder="Type Your email"  required>
+    <br><br>
+    <label  class="na" for="pass"> Password:</label><input  id="pass" class="name" type="password" name="pass" placeholder="Type Your password"  required>
+   <br><br>
+    <label for="age">Enter your Age:</label><input class="age" type="number" name="age"  required>
+    <br><br>
+    <div class="gender">
+    <p> Select your Gender:</p>
+    <label for="gender">Male</label><input type="radio"  name="gender" placeholder="Male"  required>
+    <label for="gender">Female</label><input type="radio"  name="gender" placeholder="female"></div  required>
+    <br><br>
+    <label class="job" for="job">Select Job:
+    <select name="job" id="job"  placeholder="none">
+        <option value="job">Manager</option>
+        <option value="job">Sro</option>
+        <option value="job">Faculty</option>
+        <option value="job">Other</option>
+    </select>
+<br><br></label>
+    <label for=""><input type="checkbox" required>  Terms and conditions</label>
+    <br><br>
+    <button type="submit">Submit</button>
+    </form>
+</body>
+</html>

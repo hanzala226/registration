@@ -1,0 +1,112 @@
+*{
+    padding: 0%;
+   margin: 0%;
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+body{
+    
+    background-image: url(Screenshot\ \(94\).png); 
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+      align-items: center;
+      text-align: center;
+}
+form{
+    display: block;
+    justify-content: center;
+    margin-top: 10px;
+    backdrop-filter: blur(15px);
+    box-shadow: 0 0 30px 0 rgba(255, 255, 255, 0.669);
+    color: white;
+    border: 5px solid rgb(255, 255, 255);
+    border-radius: 30px;
+    padding: 20px;
+    background-color: rgba(44, 41, 41, 0);
+    width: 350px;
+    height: 500px;
+align-items: center;
+}
+.name{
+    outline: none;
+    background-color: transparent;
+    color: white;
+    margin-left:px;
+    align-items: center;
+   width: 250px;
+   height: 30px;
+   margin-top: 12px;
+   border: 2px solid rgb(112, 112, 112);
+   transition: .2s;
+   border-radius: 15px;
+   text-align: center;
+   font-size: small;
+margin-left: 2px;
+}
+#pass{
+    margin-right: 25px;
+}
+.age{
+    outline: none;
+    border: 2px solid white;
+    margin-left: 10px;
+    margin-top: 5px;
+    width: 60px;font-size: medium;
+    height: 20px;
+    text-align: center;
+    border-radius: 10px;
+    transition: .2s;
+
+}
+.gender{
+    transition: .2s;
+    margin-top: 5px;
+    font-size:  large;
+ justify-content: center;
+    display: flex;
+   gap: 10px;
+   text-decoration: none;
+}
+#job{
+    outline: none;
+    border: 2px solid white;
+    text-align: center;
+    width: 80px;
+    height: 30px;
+  transition: .2s;
+    border-radius: 10px;
+}
+button{
+    outline: none;
+    margin-top: 10px;
+    width: 180px;
+    height: 30px;
+    border: 2px solid white;
+    border-radius: 15px;
+    background-color: rgb(255, 255, 255);
+    transition: .3s;
+}
+button:hover{
+ color: white;
+ border: 2px solid white;
+    background-color: rgba(255, 255, 255, 0);
+}
+.name:hover{
+box-shadow: 0 0 10px 0 white;
+border: 2px solid white;
+}
+.gender label:hover{
+text-shadow: 0 0 20px white;
+}
+.age:hover{
+box-shadow: 0 0 20px white;
+}
+#job:hover{
+box-shadow: 0 0 20px white;
+}
+.na{
+    font-size: 15px;
+}
